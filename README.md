@@ -3,8 +3,9 @@ Want to do a Secret Santa party but want to keep it inclusive? Don't have a way 
 Well this repository is the repository for you! Simply follow the instructions below and all of your problems will go away. 
 
 # Prerequisites
+### Instal node.js
 ```brew install node```
-### Verify install 
+#### Verify install 
 ```
 node -v
 ```
@@ -12,8 +13,12 @@ node -v
 npm -v
 ```
 ### Getting nodemailer
-```npm install nodemailer```
-```yarn add nodemailer```
+```
+npm install nodemailer
+```
+```
+yarn add nodemailer
+```
 ### Let the app access your account (assuming you're using gmail)
 I'd recommend creating a burner for this application to work.
 1. [Disable the unlock captcha.](https://accounts.google.com/b/0/DisplayUnlockCaptcha)
