@@ -5,8 +5,12 @@ Well this repository is the repository for you! Simply follow the instructions b
 # Prerequisites
 ```brew install node```
 ### Verify install 
-```node -v```
-```npm -v```
+```
+node -v
+```
+```
+npm -v
+```
 ### Getting nodemailer
 ```npm install nodemailer```
 ```yarn add nodemailer```
@@ -22,5 +26,7 @@ I'd recommend creating a burner for this application to work.
 5. In `server.json` replace the string at line 44 with whatever signature you'd like. 
 6. In `server.json` replace the value at line 48 with your email. 
 7. On a command line/terminal:
-    ```node server.js```
+    ```
+    node server.js
+    ```
     Then, in a web browser, go to localhost:8888 and watch in glory. 
