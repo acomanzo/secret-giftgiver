@@ -39,7 +39,7 @@ function onRequest(request, response) {
     for (key in pairs) {
         const body = 
         '<div style="color: yellow; text-align: center;">' + 
-            '<h1>Hey there, sport.</h1>' +
+            '<h1>Hey there, ' + emails[key] + '.</h1>' +
             '<p>You get to find a gift for <b>' + emails[pairs[key]] + '</b>.</p>' + 
             '<p>Yours in heart,<br>YOUR FANCY NAME HERE</p>' +
         '</div>';
